@@ -2,10 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool attacking(int x1, int y1, int x2, int y2) {
-    return (abs(x1 - x2) + abs(y1 - y2) == 3) ? true : false;
-}
-
 int main() {
     int k;
     scanf("%d", &k);
