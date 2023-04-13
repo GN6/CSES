@@ -8,7 +8,6 @@ int main() {
     while (t--) {
         int a, b;
         scanf("%d %d", &a, &b);
-
         printf(((a + b) % 3 == 0 && min(a, b) * 2 >= max(a, b)) ? "YES\n" : "NO\n");
     }
 
