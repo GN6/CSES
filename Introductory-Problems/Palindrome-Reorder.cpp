@@ -19,9 +19,8 @@ int main() {
             else valid = false;
         }
 
-        for (int j = 0; j < counter[i] / 2; j++) {
+        for (int j = 0; j < counter[i] / 2; j++)
             firsthalf += 'A' + i;
-        }
     }
     
     for (int i = firsthalf.length() - 1; i >= 0; i--)
